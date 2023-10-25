@@ -1,0 +1,11 @@
+typedef struct node Node;
+Node* criaLista();
+int vaziaLista(Node *lista);
+Node* insereIniLista(Node* lista, int elem);
+void printLista(Node *lista);
+Node* removeIniLista(Node *lista);
+Node* esvaziarLista(Node *lista);
+Node* insereFimLista(Node *lista, int elem);
+Node* removeFimLista(Node *lista);
+Node* insereOrdLista(Node *lista, int elem);
+Node* removeElemLista(Node *lista, int elem);
