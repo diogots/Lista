@@ -163,3 +163,25 @@ Node* removeElemLista(Node *lista, int elem){
     }
     return lista;
 }
+
+Node* buscaElementoLista(Node *lista, int elem){
+    if(!vaziaLista(lista)){
+        Node *aux = lista;
+        while(aux && aux->info != elem){
+            aux = aux->prox;
+        }
+        return aux;
+    } else return NULL;
+}
+
+void setElementoLista(Node *pEdit, int edit){
+    if(pEdit){
+        pEdit->info = edit;
+    }
+}
+
+int getElementoLista(Node *pAcess){
+    if(pAcess){
+        return pAcess->info;
+    }
+}

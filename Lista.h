@@ -9,3 +9,6 @@ Node* insereFimLista(Node *lista, int elem);
 Node* removeFimLista(Node *lista);
 Node* insereOrdLista(Node *lista, int elem);
 Node* removeElemLista(Node *lista, int elem);
+Node* buscaElementoLista(Node *lista, int elem);
+void setElementoLista(Node *pEdit, int edit);
+int getElementoLista(Node *pAcess);

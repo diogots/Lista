@@ -18,10 +18,9 @@ int main(){
     lista = removeElemLista(lista,-12);
     lista = removeElemLista(lista,33);
     printLista(lista);
-    while(lista){
-        lista = removeFimLista(lista);
-        printLista(lista);
-
-    }
     lista = removeElemLista(lista,12);
+    Node *pElem = buscaElementoLista(lista,32);
+    cout << getElementoLista(pElem) << endl;
+    setElementoLista(pElem,101);
+    cout << getElementoLista(pElem) << endl;
 }

@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1697671752 source:c:\users\lenovo\documents\code blocks projects\teste\lista\main.cpp
+1698262710 source:c:\users\lenovo\documents\code blocks projects\teste\lista\main.cpp
 	<iostream>
 	"Lista.h"
 	<locale.h>
 
-1697671561 c:\users\lenovo\documents\code blocks projects\teste\lista\lista.h
+1698273842 c:\users\lenovo\documents\code blocks projects\teste\lista\lista.h
 
-1697671546 source:c:\users\lenovo\documents\code blocks projects\teste\lista\lista.cpp
+1698273583 source:c:\users\lenovo\documents\code blocks projects\teste\lista\lista.cpp
 	<iostream>
 
